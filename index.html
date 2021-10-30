@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AriQuote Generator</title>
+    <link rel="icon" type="image/png" href="./static/favicon.png">
+    <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="quote-container" id="quote-container">
+
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Life is what happens when you’re busy making other plans.</span>
+            <i class="fas fa-quote-right"></i>
+        </div>
+
+        <div class="author-name" id="author">
+            <span> John Lennon</span>
+        </div>
+
+        <div class="button-box">
+            <div class="social-media">
+
+                <button id="twitter" title="Tweet this Quote">
+                    <i class="fab fa-twitter"></i>
+                </button>
+
+                <button id="whatsapp" title="Share this Quote with your Friends">
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+
+
+            </div>
+
+            <div class="new-quote">
+                <button title="Generate new quote" id="generate">
+                    <span>Generate</span>
+
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="loader" id="loader">
+        <br>
+        AriQuote Generator
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
