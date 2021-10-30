@@ -51,6 +51,7 @@ async function fetchQuotes(){       // fetching quotes from api
     try{
         const response = await fetch(url);
         quoteArray = await response.json();
+        generateRandomQuote();
     }catch(error){
         console.log(error);
     }
